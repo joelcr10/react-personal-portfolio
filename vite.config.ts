@@ -10,18 +10,6 @@ const __dirname = path.dirname(__filename);
 export default defineConfig({
   plugins: [
     react(),
-    // runtimeErrorOverlay(),
-    // ...(process.env.NODE_ENV !== "production" &&
-    // process.env.REPL_ID !== undefined
-    //   ? [
-    //       await import("@replit/vite-plugin-cartographer").then((m) =>
-    //         m.cartographer(),
-    //       ),
-    //       await import("@replit/vite-plugin-dev-banner").then((m) =>
-    //         m.devBanner(),
-    //       ),
-    //     ]
-    //   : []),
   ],
   resolve: {
     alias: {
@@ -35,7 +23,7 @@ export default defineConfig({
   },
   // root: path.resolve(__dirname, "client"),
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
+    outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
   },
   server: {
