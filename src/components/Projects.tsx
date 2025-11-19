@@ -7,7 +7,7 @@ import ProjectModal from "./ProjectModal";
 import ilpexImg from "@assets/generated_images/ilpex.png";
 import imdbImg from "@assets/generated_images/imdb.png";
 import learnchessImg from "@assets/generated_images/lco.png";
-import propTechImg from "@assets/generated_images/propTech.png";
+import propTechImg from "@public/generated_images/proptech.png";
 import childcareImg from "@assets/generated_images/childcare.png";
 import inshortsImg from "@assets/generated_images/inshorts.png";
 import fruitsImg from "@assets/generated_images/fruits.png"

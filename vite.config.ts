@@ -29,6 +29,8 @@ export default defineConfig({
       "@src": path.resolve(__dirname, "src"),
       "@shared": path.resolve(__dirname, "shared"),
       "@assets": path.resolve(__dirname, "src", "attached_assets"),
+      "@public": path.resolve(__dirname, "public", "attached_assets"),
+
     },
   },
   // root: path.resolve(__dirname, "client"),
